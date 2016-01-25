@@ -1,0 +1,32 @@
+{
+  "name": "parse_music",
+  "version": "1.0.0",
+  "description": "xiami 163music kuwo parse",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiliangcn/parse_music"
+  },
+  "keywords": [
+    "xiami",
+    "163music",
+    "wangyi",
+    "kuwo",
+    "parse"
+  ],
+  "author": "shiliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiliangcn/parse_music/issues"
+  },
+  "homepage": "https://github.com/shiliangcn/parse_music",
+  "dependencies": {
+    "http": "0.0.0",
+    "jquery": "^2.2.0",
+    "jsdom": "^3.1.2",
+    "request": "^2.67.0"
+  }
+}
