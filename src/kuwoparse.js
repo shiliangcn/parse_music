@@ -11,11 +11,18 @@ module.exports = function(song_id,format,callback_next){
             format: 'aac|mp3',
             type: 'convert_url'
         };
-    }else{
+    }else if (format == 1){
         data = {
             rid: 'MUSIC_' + song_id,
             response: 'url',
             format: 'mp3',
+            type: 'convert_url'
+        };
+    }else{
+        data = {
+            rid: 'MUSIC_' + song_id,
+            response: 'url',
+            format: 'ape',
             type: 'convert_url'
         };
     }
